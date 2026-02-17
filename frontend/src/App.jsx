@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/guestbook'; 
+const API_URL = 'https://simple-react-nest-js-supabase-app.vercel.app/'; 
 
 function App() {
   const [messages, setMessages] = useState([]);
